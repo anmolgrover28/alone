@@ -1,13 +1,6 @@
 import time as t
 
 
-user_pin = 9876
-user_balance = 97432.50
-user_name = "Mr. amitojdeep"
-print("Welcome to your bank account", user_name, end = "\n\n")
-
-choice = 6
-
 while (True):
     print("\t\t0. Logout and Exit")
     print("\t\t1. View Account Balance")
@@ -17,7 +10,7 @@ while (True):
     print("\t\t5. offers on your debit/credit card")
     print("\t\t6. Return Card")
     
-
+This is a new line
     choice = int(input("Enter number to proceed > "))
     print("\n\n")
 
