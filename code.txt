@@ -1,5 +1,26 @@
 import time as t
-This is the final code
+
+
+user_pin = 9876
+user_balance = 97432.50
+user_name = "Ms. ABC"
+print("Welcome to your bank account", user_name, end = "\n\n")
+
+choice = 6
+
+while (True):
+    print("\t\t0. Logout and Exit")
+    print("\t\t1. View Account Balance")
+    print("\t\t2. Withdraw Cash")
+    print("\t\t3. Deposit Cash")
+    print("\t\t4. Change PIN")
+    print("\t\t5. offers on your debit/credit card")
+    print("\t\t6. Return Card")
+    
+
+    choice = int(input("Enter number to proceed > "))
+    print("\n\n")
+
     if choice == 0:
         print("Exiting...")
         t.sleep(2)
